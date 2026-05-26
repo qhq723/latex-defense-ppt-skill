@@ -204,20 +204,3 @@ python3 latex-defense-ppt-skill/scripts/visual_qa.py tmp/ppt_preview/previews --
 ```
 
 视觉 QA 是启发式检查，发现的留白、偏移、低对比警告需要人工判断；它的作用是提醒 agent 和使用者复查高风险页面。
-
-## 开源说明
-
-本 skill 是模板无关、论文无关的通用工具包，不包含任何学校 logo、私有论文内容或专有模板。用户需要提供自己的 LaTeX 论文目录和 PPTX 模板。
-
-建议开源时保留：
-
-- `SKILL.md`
-- `references/`
-- `scripts/`
-- `agents/openai.yaml`
-- `README.md`
-- `LICENSE`
-- `CONTRIBUTING.md`
-- `requirements.txt` 或 `pyproject.toml`
-
-不要提交真实论文、学校内部模板、学生个人信息或未授权的图片素材。
