@@ -1,0 +1,39 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Generated presentations and previews
+*.pptx
+*.pdf
+tmp/
+output/
+materials/
+ppt_work/
+ppt_preview/
+contact_sheet.jpg
+
+# Private thesis/template inputs
+*.tex
+*.bib
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tiff
+*.bmp
+
+# Keep skill assets/docs if explicitly added later
+!README.md
+!SKILL.md
+!LICENSE
+!requirements.txt
+!pyproject.toml
+!agents/
+!references/
+!scripts/

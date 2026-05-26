@@ -1,0 +1,6 @@
+display_name: LaTeX 答辩 PPT
+short_description: 从 LaTeX 论文和 PPTX 模板生成并质检高质量答辩 PPT。
+default_prompt: >
+  请从我的 LaTeX 论文目录和 PPTX 模板制作一份高质量论文答辩 PPT。
+  先理解论文研究内容，复用论文插图，遵循模板风格，撰写凝练学术分析，
+  严格检查图文对齐和字号一致性，并在交付前运行 PPTX QA。

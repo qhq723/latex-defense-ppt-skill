@@ -1,0 +1,22 @@
+[project]
+name = "latex-defense-ppt-skill"
+version = "0.2.0"
+description = "Codex/Claude Code skill for generating and QAing thesis defense PPTX decks from LaTeX and a template."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "latex-defense-ppt-skill contributors" }]
+dependencies = [
+  "python-pptx>=0.6.23",
+  "Pillow>=10.0.0",
+  "PyMuPDF>=1.23.0",
+  "pywin32>=306; platform_system == 'Windows'",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
